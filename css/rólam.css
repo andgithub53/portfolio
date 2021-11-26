@@ -1,0 +1,88 @@
+*{box-sizing: border-box;
+margin: 0px;
+padding: 0px;}
+body {font-family: sans-serif;}
+
+.nevem h1 { background-color: lightblue;
+text-align: center; 
+display: block;
+margin: 10px;
+padding: 30px;}
+
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;}
+
+li a {text-decoration: none;
+	display: block;
+min-width: 90%;
+padding: 46px 0 46px 0;
+margin: 10px;
+font-weight: bolder;
+color: black;
+border: 2px solid black;
+border-radius: 10px;
+background-color: lightpink;
+
+}
+
+li a:hover{background-color: lightblue;
+color: lightpink;}
+
+.menu1 {
+	text-align: center;
+	padding: 0 30px;
+	font-size: 30px;
+	max-width: 250px;
+	margin: 10px;
+
+	}
+h1 a {text-decoration: none;
+color: black;}
+
+.szöveg2 {
+ overflow: auto;
+background-color:white;
+border: 2px solid black;
+border-radius: 15px;
+padding: 20px;
+width: 100%;
+height: min-content;
+font-size: 20px;
+text-align: center;
+margin: 20px 0;}
+
+.tartó{display: grid;
+grid-gap: 50px;
+  grid-template-columns: 1fr 1fr 2fr;
+  background-color: lightcyan;
+  padding: 10px;
+  justify-content: space-around;
+  margin: 10px;
+   grid-template-areas:'. elem1 kozep '
+   ' . elem2 kozep '
+   
+}
+
+.szöveg{grid-area: kozep;}
+.kep {grid-area:elem1;}
+
+h2 {background-color: lightpink;}
+
+
+.kep{margin: 20px 0;}
+img {border: 5px solid white;
+border-radius: 5px;}
+
+.rólam{min-width: 120%;}
+
+
+
+
+footer{text-align: center;
+background-color: lightblue;
+margin: 10px;
+padding: 30px;
+}
